@@ -2,9 +2,11 @@
 
 Esta carpeta contiene la documentación y los catálogos oficiales en formato PDF que el agente inteligente utiliza como única fuente de verdad para responder las consultas de los usuarios.
 
+---
+
 ##  Contenido
-* Catálogos comerciales de productos.
-* Políticas de devolución, plazos y condiciones de soporte de BimBam Buy.
+*   ** Catálogos comerciales de productos.**
+*   ** Políticas de devolución, plazos y condiciones de soporte de BimBam Buy.**
 
 ---
 
