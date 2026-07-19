@@ -30,22 +30,22 @@ A continuación se detallan los casos de prueba ejecutados en el entorno de desa
 El agente recupera correctamente la información detallada desde los PDFs locales (políticas de devolución, plazos, condiciones y canales oficiales), estructurando la respuesta de manera clara para el usuario. Debido a la extensión y el detalle de la respuesta, la evidencia se divide en dos partes:
 
 <p align="center">
-  <img src="screenshots/exitoso_part1.png" alt="Consulta Exitosa Parte 1" width="85%">
+  <img src="Screenshots/exitoso_parte1.png" alt="Consulta Exitosa Parte 1" width="85%">
 </p>
 <p align="center">
-  <img src="screenshots/exitoso_part2.png" alt="Consulta Exitosa Parte 2" width="85%">
+  <img src="Screenshots/exitoso_parte2.png" alt="Consulta Exitosa Parte 2" width="85%">
 </p>
 
 ### 2. Consulta Fuera de Contexto (Filtro de Alucinación)
 Al recibir una pregunta completamente ajena al negocio (como la receta de una chocotorta), el agente activa la regla de seguridad y rechaza la solicitud de forma controlada.
 
 <p align="center">
-  <img src="screenshots/fuera_contexto.png" alt="Filtro de Alucinación" width="85%">
+  <img src="Screenshots/fuera_contexto.png" alt="Filtro de Alucinación" width="85%">
 </p>
 
 ### 3. Intento de Prompt Injection (Ataque de Inyección)
 Un intento explícito de hackeo ideado para romper las reglas del sistema y forzar respuestas arbitrarias es bloqueado con éxito por las directivas del sistema.
 
 <p align="center">
-  <img src="screenshots/inyeccion.png" alt="Defensa Prompt Injection" width="85%">
+  <img src="Screenshots/inyeccion.png" alt="Defensa Prompt Injection" width="85%">
 </p>
