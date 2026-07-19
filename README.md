@@ -8,9 +8,9 @@ El proyecto está construido utilizando **Python**, **Google GenAI (Gemini)** y 
 
 ##  Estructura del Repositorio
 
-*   📁 `Data/`: Contiene los documentos y catálogos en formato PDF que sirven como base de conocimiento local para el agente.
-*   📁 `Screenshots/`: Evidencia visual del correcto funcionamiento del sistema y sus mecanismos de defensa.
-*   📄 `BimBam_Buy_RAG_Agent.ipynb`: Notebook de Google Colab con el código fuente estructurado paso a paso (Extracción, Procesamiento, Prompt Engineering y Ejecución).
+*   📁 **`Data/`**: Contiene los documentos y catálogos en formato PDF que sirven como base de conocimiento local para el agente.
+*   📁 **`Screenshots/`**: Evidencia visual del correcto funcionamiento del sistema y sus mecanismos de defensa.
+*   📄 **`BimBam_Buy_RAG_Agent.ipynb`**: Notebook de Google Colab con el código fuente estructurado paso a paso (Extracción, Procesamiento, Prompt Engineering y Ejecución).
 
 ---
 
@@ -49,3 +49,9 @@ Un intento explícito de hackeo ideado para romper las reglas del sistema y forz
 <p align="center">
   <img src="Screenshots/inyeccion.png" alt="Defensa Prompt Injection" width="85%">
 </p>
+
+
+
+
+
+
