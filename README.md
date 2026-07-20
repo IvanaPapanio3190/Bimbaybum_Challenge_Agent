@@ -22,6 +22,19 @@ Para garantizar un comportamiento ético y evitar fallos comunes en modelos de l
 
 ---
 
+##  Evidencia de Ejecución en la Nube (Alternativa Cloud)
+
+> **Nota sobre el entorno de despliegue:** Debido a las restricciones globales de facturación y validación de identidad requeridas para el alta de servicios en Oracle Cloud Infrastructure (OCI) mediante tarjeta de crédito, se optó por una arquitectura Cloud alternativa e igualmente robusta utilizando la infraestructura de **Google**.
+
+El agente inteligente se encuentra completamente operativo en la nube bajo el entorno de **Google Colab**, consumiendo los modelos fundacionales de Google GenAI a través de su API en producción. 
+
+### Evidencias de Funcionamiento Cloud
+Las capturas de pantalla que demuestran la ejecución exitosa del script, el procesamiento del PDF con PyPDF y las respuestas del modelo en tiempo real dentro del entorno de Google Colab se encuentran almacenadas en la carpeta correspondiente del repositorio:
+
+*  **Evidencias visuales:** Podés consultar las capturas detalladas directamente en la carpeta [`/Screenshots/`](./Screenshots/).
+
+---
+
 ##  Evidencia de Funcionamiento y Pruebas
 
 A continuación se detallan los casos de prueba ejecutados en el entorno de desarrollo:
@@ -50,7 +63,7 @@ Un intento explícito de hackeo ideado para romper las reglas del sistema y forz
   <img src="Screenshots/inyeccion.png" alt="Defensa Prompt Injection" width="85%">
 </p>
 
-
+---
 
 
 
