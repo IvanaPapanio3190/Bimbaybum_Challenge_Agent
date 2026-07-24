@@ -23,7 +23,7 @@ if not api_key:
     st.stop()
 
 # 👇 SOLO PARA PROBAR
-st.write("API comienza con:", api_key[:10])
+st.write("API comienza con:", api_key[:16])
 
 # Inicializar cliente de Gemini
 client = genai.Client(api_key=api_key)
