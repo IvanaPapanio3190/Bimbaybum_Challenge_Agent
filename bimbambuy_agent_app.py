@@ -16,7 +16,7 @@ st.title("🛍️ BimBam Buy - Asistente Virtual")
 st.caption("Consultá sobre catálogos, productos, políticas y envíos en tiempo real.")
 
 # 1. Obtener la API Key desde los secretos de Streamlit
-api_key = st.secrets.get("GEMINI_API_KEY") or os.environ.get("GEMINI_API_KEY")
+api_key = st.secrets.get("GOOGLE_API_KEY") or os.environ.get("GOOGLE_API_KEY")
 
 if not api_key:
     st.error("⚠️ No se encontró la GEMINI_API_KEY. Por favor, configúrala en los Secrets de Streamlit.")
@@ -86,7 +86,7 @@ if user_input := st.chat_input("Escribí tu consulta aquí..."):
 
     # Construir el historial formateado para la API de Gemini
     formatted_contents = []
-    for m in st.session_state.messages:
+    for m in st.session_state.messages[-10:]:
         role_label = "user" if m["role"] == "user" else "model"
         formatted_contents.append(
             types.Content(
