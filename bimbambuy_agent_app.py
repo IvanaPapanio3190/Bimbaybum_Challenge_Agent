@@ -22,6 +22,9 @@ if not api_key:
     st.error("⚠️ No se encontró la GEMINI_API_KEY. Por favor, configúrala en los Secrets de Streamlit.")
     st.stop()
 
+# 👇 SOLO PARA PROBAR
+st.write("API comienza con:", api_key[:10])
+
 # Inicializar cliente de Gemini
 client = genai.Client(api_key=api_key)
 
