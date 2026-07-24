@@ -100,7 +100,8 @@ if user_input := st.chat_input("Escribí tu consulta aquí..."):
         with st.spinner("Pensando..."):
             try:
                 response = client.models.generate_content(
-                    model="gemini-2.5-flash-latest",
+                    model = genai.GenerativeModel('models/gemini-1.5-flash'),
+                   
                     contents=formatted_contents,
                     config=types.GenerateContentConfig(
                         system_instruction=system_instruction,
