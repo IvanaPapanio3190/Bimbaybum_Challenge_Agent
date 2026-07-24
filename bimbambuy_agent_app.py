@@ -19,7 +19,7 @@ st.caption("Consultá sobre catálogos, productos, políticas y envíos en tiemp
 api_key = st.secrets.get("GOOGLE_API_KEY") or os.environ.get("GOOGLE_API_KEY")
 
 if not api_key:
-    st.error("⚠️ No se encontró la GEMINI_API_KEY. Por favor, configúrala en los Secrets de Streamlit.")
+    st.error("⚠️ No se encontró la GOOGLE_API_KEY. Por favor, configúrala en los Secrets de Streamlit.")
     st.stop()
 
 # Inicializar cliente de Gemini
